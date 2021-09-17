@@ -5,7 +5,7 @@
  * @LastEditTime: 2020-07-13 17:42:22
  * @Description: file content
  */
-package utils
+package goutils
 
 func IntGt(key1 int, key2 int) int {
 	if key1 > key2 {

@@ -5,7 +5,7 @@
  * @LastEditTime: 2020-08-20 20:32:22
  * @Description: file content
  */
-package utils
+package goutils
 
 import (
 	"strings"

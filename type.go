@@ -5,7 +5,7 @@
  * @LastEditTime: 2020-08-19 15:35:10
  * @Description: file content
  */
-package utils
+package goutils
 
 import (
 	"strconv"

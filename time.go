@@ -6,7 +6,7 @@
  * @Description: file content
  */
 
-package utils
+package goutils
 
 import (
 	"strings"

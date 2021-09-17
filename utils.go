@@ -6,7 +6,7 @@
  * @Description: 工具
  */
 
-package services
+package goutils
 
 import (
 	"io/ioutil"
