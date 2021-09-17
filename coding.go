@@ -5,7 +5,7 @@
  * @LastEditTime: 2020-08-21 11:21:18
  * @Description: file content
  */
-package utils
+package goutils
 
 import (
 	"bytes"
