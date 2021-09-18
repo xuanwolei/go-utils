@@ -2,7 +2,7 @@
  * @Author: ybc
  * @Date: 2020-07-22 15:51:25
  * @LastEditors: ybc
- * @LastEditTime: 2020-08-17 15:04:17
+ * @LastEditTime: 2021-09-18 10:13:29
  * @Description: 工具
  */
 
@@ -13,7 +13,6 @@ import (
 	"net"
 	"os"
 	"regexp"
-	"strconv"
 	"strings"
 	"sync"
 )
@@ -121,21 +120,4 @@ func ParseFilePath(path string) (string, string) {
 	name := path[last+1:]
 
 	return dir, name
-}
-
-func InterfaceToInt(data interface{}) int {
-	var res int
-	switch v := data.(type) {
-	case string:
-		res, _ = strconv.Atoi(v)
-	case int64:
-		strInt64 := strconv.FormatInt(v, 10)
-		res, _ = strconv.Atoi(strInt64)
-	case int:
-		res = v
-	default:
-		res = 0
-	}
-
-	return res
 }
